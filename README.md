@@ -1,4 +1,28 @@
+### **How to run this repository**
 
+<pre>
+<code id="env-code">
+Path: root/.env
+  
+MONGO_URI=mongodb+srv://<username>:<password>@cluster0.<cluster-id>.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+PORT=5000
+JWT_SECRET='your_jwt_secret'
+CLIENT_URL='http://localhost:5173'
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587                  
+SMTP_SERVICE=gmail
+SMTP_MAIL=your_email@gmail.com
+SMTP_PASSWORD=your_smtp_password
+
+Path: root/frontend/.env
+  
+VITE_FIREBASE_API_KEY=your_firebase_api_key
+NODE_ENV=development
+ 
+</code>
+</pre>
+
+### **Repository Explanation**
 
 ### **1. Admin Dashboard**
 The admin dashboard is designed for administrative control and includes components and pages for managing users, roles, and other functionalities. 
