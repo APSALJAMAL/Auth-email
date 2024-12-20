@@ -2,7 +2,7 @@
 
 <pre>
 <code id="env-code">
-Path: root/.env
+Path: /root/.env
   
 MONGO_URI=mongodb+srv://<username>:<password>@cluster0.<cluster-id>.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 PORT=5000
@@ -14,11 +14,35 @@ SMTP_SERVICE=gmail
 SMTP_MAIL=your_email@gmail.com
 SMTP_PASSWORD=your_smtp_password
 
-Path: root/frontend/.env
+Path: /root/frontend/.env
   
 VITE_FIREBASE_API_KEY=your_firebase_api_key
 NODE_ENV=development
- 
+
+</code>
+</pre>
+
+### **In backend run** 
+Path: /root/
+<pre>
+<code id="env-code">
+num run dev 
+</code>
+</pre>  
+
+### **In frontend run** 
+Path: /root/frontend/
+<pre>
+<code id="env-code">
+num run dev 
+</code>
+</pre>
+
+### **To build**
+Path: /root/
+<pre>
+<code id="env-code">
+num run build 
 </code>
 </pre>
 
