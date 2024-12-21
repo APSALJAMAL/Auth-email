@@ -10,16 +10,11 @@ import './utils/cronCleanup.js'; // Import the cron cleanup task
 import cookieParser from 'cookie-parser';
 import path from 'path';
 
-import cloudinary from "cloudinary";
 
 
 dotenv.config();
 
-cloudinary.v2.config({
-  cloud_name: process.env.Cloud_Name,
-  api_key: process.env.Cloud_Api,
-  api_secret: process.env.Cloud_Secret,
-});
+
 
 
 const __dirname = path.resolve();
